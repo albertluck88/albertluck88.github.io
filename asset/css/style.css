@@ -25,6 +25,8 @@ height: 60;
 }
 .container {
   padding: 10 30 20 30;
+  overflow: auto;
+
 
 
 }
@@ -113,29 +115,25 @@ section h1 {
 }
 
 
-.container .content .boxxer {
+.container  .boxxer {
  background-color: white;
  width: 25%;
  height: 500px;
  float: left;
- margin: 10px;
+ margin-left: 5.5%;
  border-radius: 10px;
  padding: 10px;
- margin-left: 70px;
- display: table-cell;
  margin-bottom: 20px;
  border: 1px solid black;
+ overflow: auto;
+
+
 
 }
 
-.container .content {
-  width: 100%;
-  padding-left: 50px;
-  background-color: black;
 
-}
 
-.container .content .boxxer p {
+.container  .boxxer p {
  color: black;
  font-size: 25px;
  padding: 5px;
